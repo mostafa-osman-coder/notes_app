@@ -7,7 +7,7 @@ import 'package:notes_app/views/widgets/custom_app_bar.dart';
 import 'custom_text_field.dart';
 
 class EditNoteViewBody extends StatefulWidget {
-  const EditNoteViewBody({Key? key, required this.note}) : super(key: key);
+  const EditNoteViewBody({super.key, required this.note});
 
   final NoteModel note;
 
